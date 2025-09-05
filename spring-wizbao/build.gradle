@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.wizbao'
+version = '5.3.39'
+description = "Spring My"
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    api(project(":spring-beans"))
+    api(project(":spring-context"))
+    optional(project(":spring-aop"))
+    optional(project(":spring-context"))
+}
