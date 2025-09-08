@@ -8,6 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
  * @date 2025/4/20 15:42
  * @since 2024.0.1
  **/
-@ComponentScan("com.my")
+@ComponentScan("com.wizbao")
 public class AppConfig {
 }
