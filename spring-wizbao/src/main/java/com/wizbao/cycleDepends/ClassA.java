@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * @since 2025.0.1
  **/
 @Component
-public class ClassA {
+public class ClassA implements IClassA{
 
 	@Autowired
 	private ClassB classB;
@@ -30,4 +30,8 @@ public class ClassA {
 		this.classB = classB;
 	}
 
+	@Override
+	public void execute() {
+		System.out.println("i am class A");
+	}
 }

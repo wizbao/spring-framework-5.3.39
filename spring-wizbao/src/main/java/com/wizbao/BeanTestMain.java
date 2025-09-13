@@ -1,7 +1,12 @@
 package com.wizbao;
 
+import com.wizbao.cycleDepends.ClassA;
 import com.wizbao.event.MyEvent;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BeanTestMain {
 	public static void main(String[] args) {
